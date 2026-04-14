@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" type="image/png" href="assets/img/icono-web.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0d0d0d">
+    <meta name="description" content="Ecosistema Digital El Abigero - Viviendas Turísticas con IA">
+    <title>Despliegue Web Turística | Diego Alonso</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Touch-friendly enhancements */
+        @media (hover: none) {
+            .project-nav-card,
+            .nav-social-btn,
+            .nav-projects-btn {
+                padding: 14px !important;
+            }
+        }
+        
+        /* Prevent zoom on input focus */
+        input, textarea, select {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body class="dark-mode">
+
+    <nav class="navbar">
+        <div class="nav-container container">
+            <a href="index.html" class="logo">DA<span>.</span></a>
+            <ul class="nav-menu">
+                 <li class="dropdown">
+                    <a href="#" class="nav-projects-btn">Proyectos <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="proyecto1.html">AWS & IA Didáctica</a></li>
+                        <li><a href="proyecto2.html">Viviendas Turísticas</a></li>
+                        <li><a href="proyecto3.html">Despliegue GEX London</a></li>
+                        <li><a href="proyecto4.html">TFG: Administración Endpoints</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://github.com/lonsochico" target="_blank" class="nav-social-btn github">
+                        <i class="fab fa-github"></i><span class="nav-label">GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/diego-alonso-chico-1301a4183" target="_blank" class="nav-social-btn linkedin">
+                        <i class="fab fa-linkedin"></i><span class="nav-label">LinkedIn</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" style="background-image: linear-gradient(to bottom, rgba(13,13,13,0.6), rgba(13,13,13,0.95)), url('assets/img/tren.png');">
+        <div class="hero-content container">
+            <h1>Ecosistema Digital "El Abigero"</h1>
+            <p class="tagline">Optimización de reservas mediante IA y arquitecturas Serverless</p>
+            <div class="hero-badges">
+                <span><i class="fas fa-magic"></i> IA Assisted Design</span>
+                <span><i class="fab fa-github"></i> GitHub Pages Hosting</span>
+                <span><i class="fas fa-envelope-open-text"></i> Lead Conversion</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" style="max-width: 1000px; padding: 40px 0;">
+        
+        <div class="card" style="margin-bottom: 40px;">
+            <h2 class="section-title">La IA como Arquitecto Web</h2>
+            <p>El objetivo de este proyecto fue demostrar cómo un profesional IT puede apoyarse en la <strong>Inteligencia Artificial</strong> para desplegar una solución comercial completa, estética y de alta conversión sin costes de infraestructura.</p>
+            <p>Utilizando un flujo de trabajo basado en <strong>IA Generativa</strong> para la redacción de código y optimización de copys, se logró transformar una necesidad de negocio en una plataforma web estática capaz de competir visualmente con grandes portales, ofreciendo una vía de comunicación directa y sencilla para el cliente final.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 40px;">
+            
+            <div class="card" style="margin-bottom: 0;">
+                <h3 style="color: var(--accent); margin-top: 0; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-microchip"></i> Eficiencia Operativa
+                </h3>
+                <ul class="task-list">
+                    <li><strong>Coste Cero:</strong> Alojamiento gratuito mediante GitHub Pages.</li>
+                    <li><strong>Conversión Directa:</strong> Formulario inteligente que conecta al cliente con la propiedad vía email, eliminando intermediarios.</li>
+                    <li><strong>UX Premium:</strong> Diseño responsivo con animaciones suaves y tipografías equilibradas (Playfair & Lato).</li>
+                </ul>
+            </div>
+
+            <div class="card" style="margin-bottom: 0; border-left: 4px solid var(--accent-warning);">
+                <h3 style="color: var(--accent-warning); margin-top: 0; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-route"></i> Roadmap de Evolución
+                </h3>
+                <p style="font-size: 0.95rem; color: var(--text-dim);">El proyecto se encuentra en una fase de mejora continua para maximizar la automatización:</p>
+                <ul class="task-list">
+                    <li><strong>Sincronización iCal:</strong> Integración de calendario dinámico.</li>
+                    <li><strong>Automatización Booking:</strong> Sincronización bidireccional de disponibilidad para evitar el overbooking manual.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <h2 class="section-title">Stack Tecnológico</h2>
+            <p>Despliegue basado en tecnologías web estándar, priorizando la velocidad de carga y el SEO local.</p>
+            
+            <ul class="cert-list" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-top: 20px; margin-bottom: 30px;">
+                <li><i class="fab fa-html5"></i> HTML5 Semántico</li>
+                <li><i class="fab fa-css3-alt"></i> CSS3 Grid & Flexbox</li>
+                <li><i class="fab fa-js"></i> Vanilla JavaScript</li>
+                <li><i class="fas fa-terminal"></i> Git/GitHub Workflow</li>
+            </ul>
+
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 30px;">
+                <a href="https://lonsochico.github.io/ViviendasDeUsoTuristico/" target="_blank" class="nav-social-btn" style="background-color: var(--primary); padding: 12px 24px !important; font-size: 1rem !important;">
+                    <i class="fas fa-external-link-alt"></i> Ver Proyecto en Vivo
+                </a>
+                <a href="https://github.com/lonsochico/ViviendasDeUsoTuristico" target="_blank" class="nav-social-btn github" style="padding: 12px 24px !important; font-size: 1rem !important;">
+                    <i class="fab fa-github"></i> Repositorio del Proyecto
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Diego Alonso | Especialista en Automatización e IA</p>
+    </footer>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 # 🚀 Construyendo la Identidad Digital: IT Portfolio & Project Hub
 
-**Contacto:** [LinkedIn] (https://www.linkedin.com/in/diego-alonso-chico-1301a4183) | [GitHub](https://github.com/lonsochico)
+**Contacto:** [LinkedIn](https://www.linkedin.com/in/diego-alonso-chico-1301a4183) | [GitHub](https://github.com/lonsochico)
 
 Este repositorio contiene el código fuente de mi portfolio profesional.  
 En el sector tecnológico actual, un currículum estático ya no es suficiente.  

@@ -166,7 +166,10 @@ body {
     justify-content: center; 
     text-align: center; 
     margin-top: var(--nav-height); 
-    background: url('fondo-tecnico.jpg') center/cover no-repeat fixed; 
+    background: url('assets/img/fondo-tecnico.jpg') center/cover no-repeat scroll; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
 }
 .hero-overlay { 
     position: absolute; 
@@ -578,6 +581,11 @@ footer {
     .hero {
         min-height: 300px;
         height: 40vh;
+        background: linear-gradient(to bottom, rgba(13,13,13,0.6), rgba(13,13,13,0.95)), 
+                    url('assets/img/fondo-tecnico.jpg') center/cover no-repeat scroll;
+        background-color: var(--bg-color);
+        background-size: cover;
+        background-position: center;
     }
     
     .hero h1 { 
